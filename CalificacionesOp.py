@@ -109,6 +109,6 @@ print(f"En total hay ({countGreater}) calificaciones mayores a {referenceValue}"
 #Ciclo for para encontrar valores iguales
 for i in grades:
     if referenceValue == i:
-        countEquals += countEquals
+        countEquals += 1
 
 print(f"En total hay ({countEquals}) identicos al valor evaluado {referenceValue}")
